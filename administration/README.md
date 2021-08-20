@@ -26,3 +26,30 @@ You can download it by:
     ``` bash
     vagrant box add bento/ubuntu-20.04
     ```
+3. Clone this repo, then `cd` into `administration` folder
+
+4. Bring up the VMs
+
+    ``` bash
+    vagrant up
+    ```
+
+5. After the VMs are up, ssh into the VMs
+
+    Open command line then:
+
+    ``` bash
+    vagrant ssh node-1
+    ```
+
+    Open another command line then:
+
+    ``` bash
+    vagrant ssh node-2
+    ```
+
+6. Update apt cache on both VMs with:
+
+    ``` bash
+    sudo apt update
+    ```
