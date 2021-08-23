@@ -7,15 +7,13 @@ PostgreSQL Administration
 
 2. Internet connection
 
-3. [VMware Workstation Player](https://www.vmware.com/asean/products/workstation-player/workstation-player-evaluation.html) for Windows and Linux or [VMware Fusion Player](https://customerconnect.vmware.com/web/vmware/evalcenter?p=fusion-player-personal) for Mac 
+3. [VMware Workstation Player](https://www.vmware.com/asean/products/workstation-player/workstation-player-evaluation.html) for Windows and Linux or [VMware Fusion Player](https://customerconnect.vmware.com/web/vmware/evalcenter?p=fusion-player-personal) for Mac
 
 4. [Vagrant VMware Utility](https://www.vagrantup.com/docs/providers/vmware/vagrant-vmware-utility)
 
 # Before D-Day
 
-Please download Vagrant box `bento/ubuntu-20.04` before the workshop.
-
-You can download it by:
+Please try to run the VMs and update apt cache before the training.
 
 1. Open your command prompt
 
