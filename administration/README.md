@@ -7,11 +7,9 @@ PostgreSQL Administration
 
 2. Internet connection
 
-3. [Virtualbox](https://www.virtualbox.org/wiki/Downloads) (latest version)
+3. [VMware Workstation Player](https://www.vmware.com/asean/products/workstation-player/workstation-player-evaluation.html) for Windows and Linux or [VMware Fusion Player](https://customerconnect.vmware.com/web/vmware/evalcenter?p=fusion-player-personal) for Mac 
 
-4. [VMware Workstation Player](https://www.vmware.com/asean/products/workstation-player/workstation-player-evaluation.html) for Windows and Linux or [VMware Fusion Player](https://customerconnect.vmware.com/web/vmware/evalcenter?p=fusion-player-personal) for Mac 
-
-5. [Vagrant VMware Utility](https://www.vagrantup.com/docs/providers/vmware/vagrant-vmware-utility)
+4. [Vagrant VMware Utility](https://www.vagrantup.com/docs/providers/vmware/vagrant-vmware-utility)
 
 # Before D-Day
 
