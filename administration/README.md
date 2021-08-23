@@ -9,9 +9,9 @@ PostgreSQL Administration
 
 3. [Virtualbox](https://www.virtualbox.org/wiki/Downloads) (latest version)
 
-4. [Vagrant](https://www.vagrantup.com/downloads) (latest version)
+4. [VMware Workstation Player](https://www.vmware.com/asean/products/workstation-player/workstation-player-evaluation.html) for Windows and Linux or [VMware Fusion Player](https://customerconnect.vmware.com/web/vmware/evalcenter?p=fusion-player-personal) for Mac 
 
-> WARNING: Installing Virtualbox may break your other hypervisor (if any)
+5. [Vagrant VMware Utility](https://www.vagrantup.com/docs/providers/vmware/vagrant-vmware-utility)
 
 # Before D-Day
 
@@ -21,20 +21,27 @@ You can download it by:
 
 1. Open your command prompt
 
-2. Download the box with
+2. Install Vagrant VMware plugin
+
+    ``` bash
+    vagrant plugin install vagrant-vmware-desktop
+    ```
+
+3. Download Vagrant box with
 
     ``` bash
     vagrant box add bento/ubuntu-20.04
     ```
-3. Clone this repo, then `cd` into `administration` folder
 
-4. Bring up the VMs
+4. Clone this repo, then `cd` into `administration` folder
+
+5. Bring up the VMs
 
     ``` bash
-    vagrant up
+    vagrant up --provider vmware_desktop
     ```
 
-5. After the VMs are up, ssh into the VMs
+6. After the VMs are up, ssh into the VMs
 
     Open command line then:
 
@@ -48,7 +55,7 @@ You can download it by:
     vagrant ssh node-2
     ```
 
-6. Update apt cache on both VMs with:
+7. Update apt cache on both VMs with:
 
     ``` bash
     sudo apt update
