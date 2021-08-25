@@ -5,11 +5,13 @@ PostgreSQL Administration
 
 1. Laptop / PC that allows you to run 2 VMs with at least 1 CPU and 1 GB RAM
 
-2. Internet connection
+1. Internet connection
 
-3. [VMware Workstation Player](https://www.vmware.com/asean/products/workstation-player/workstation-player-evaluation.html) for Windows and Linux or [VMware Fusion Player](https://customerconnect.vmware.com/web/vmware/evalcenter?p=fusion-player-personal) for Mac
+1. [VMware Workstation Player](https://www.vmware.com/asean/products/workstation-player/workstation-player-evaluation.html) for Windows and Linux or [VMware Fusion Player](https://customerconnect.vmware.com/web/vmware/evalcenter?p=fusion-player-personal) for Mac
 
-4. [Vagrant VMware Utility](https://www.vagrantup.com/docs/providers/vmware/vagrant-vmware-utility)
+1. [Vagrant](https://www.vagrantup.com/downloads)
+
+1. [Vagrant VMware Utility](https://www.vagrantup.com/docs/providers/vmware/vagrant-vmware-utility)
 
 # Before D-Day
 
