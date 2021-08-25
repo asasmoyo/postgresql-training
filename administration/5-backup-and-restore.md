@@ -72,7 +72,7 @@ We need to configure `archive_command` to archive WAL. Create `/etc/postgresql/1
 
 ``` bash
 archive_mode = on
-archive_command = "s3cmd --access_key='' --secret_key='' --host=minio.203.6.148.201.nip.io --host-bucket=minio.203.6.148.201.nip.io --no-ssl put %p s3://postgresql-training/wal/me/%f"
+archive_command = 's3cmd --access_key="" --secret_key="" --host=minio.203.6.148.201.nip.io --host-bucket=minio.203.6.148.201.nip.io --no-ssl put %p s3://postgresql-training/wal/me/%f'
 wal_level = 'replica'
 ```
 
